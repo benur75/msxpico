@@ -5,7 +5,7 @@ I have created a multi purpose cartridge for MSX computers. It's based on a Rasp
 The MSX Pico cartridge features:
 
 - A 3D printed cartridge case.
-- PCB with gold plated contacts.
+- Latest version has a PCB with gold plated contacts.
 - Built in ready to use well known ROMs.
 - Built in Nextor to use micro SD card in MSXDOS2. When Nextor is used, 224 kByte extra RAM, SCC+ and Basic Kun plus is available as well
 - Stereo high quality audio DAC with 3.5mm output.
