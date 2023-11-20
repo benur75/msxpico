@@ -21,7 +21,7 @@ The MSX Pico cartridge features:
 - USB-C connection for firmware updates.
 - ROM files with a maximum of 4MB can directly be loaded from micro SD card by the built in menu without using Sofarun or Romload.
 - DSK files can directly be used from micro SD card using disk ROM emulation
-- Automatic mapper type detection weith manual adjustment. Supported mapper types: ASCII8, ASCII16, Konami with and without SCC.
+- Automatic mapper type detection with manual adjustment. Supported mapper types: ASCII8, ASCII16, Konami with and without SCC.
 - 50/60Hz video output selection
 
 For a questions, ideas and orders please contact me: j.taverne@gmail.com
