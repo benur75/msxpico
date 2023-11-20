@@ -8,6 +8,7 @@ The MSX Pico cartridge features:
 
 - A 3D printed cartridge case.
 - Latest version has a PCB with gold plated contacts.
+- Built in menu with direct file access and very fast response.
 - Built in ready to use well known ROMs.
 - Built in Nextor to use micro SD card in MSXDOS2. When Nextor is used, 224 kByte extra RAM, SCC+ and Basic Kun plus is available as well
 - Stereo high quality audio DAC with 3.5mm output.
