@@ -22,5 +22,6 @@ The MSX Pico cartridge features:
 - Automatic mapper type detection weith manual adjustment. Supported mapper types: ASCII8, ASCII16, Konami with and without SCC.
 - 50/60Hz video output selection
 
-For a questions and orders please contact me: j.taverne@gmail.com
- 
+For a questions, ideas and orders please contact me: j.taverne@gmail.com
+
+I am also looking for people who want to help coding on this project. It's all written in C, no CPLD / FPGA involved!
