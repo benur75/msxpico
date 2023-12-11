@@ -9,7 +9,7 @@ For small demo videos check: https://www.facebook.com/groups/1113206428793908/pe
 
 The MSX Pico cartridge features:
 
-- A 3D printed cartridge case.
+- A 3D printed cartridge case in black. Other colors can be requested.
 - Latest version has a PCB with gold plated contacts.
 - Built in menu (80 columns) with direct file access and very fast response.
 - Built in ready to use well known ROMs.
@@ -25,6 +25,8 @@ The MSX Pico cartridge features:
 - Automatic mapper type detection with manual adjustment. Supported mapper types: ASCII8, ASCII16, Konami with and without SCC.
 - 50/60Hz video output selection
 - Compatible with MSX2, MSX2+, MSX Turbo R, One Chip MSX, SX1-(mini)
+- Not compatible with 7MHz modification
+- Not compatible with pause key
 
 For a questions, ideas and orders please contact me: j.taverne@gmail.com
 
