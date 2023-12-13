@@ -30,4 +30,3 @@ The MSX Pico cartridge features:
 
 For a questions, ideas and orders please contact me: j.taverne@gmail.com
 
-I am also looking for people who want to help coding on this project. It's all written in C, no CPLD / FPGA involved!
