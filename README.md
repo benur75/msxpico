@@ -4,7 +4,7 @@ I have created a multi purpose cartridge for MSX computers. It's based on a Rasp
 
 For small demo videos check: https://www.facebook.com/groups/1113206428793908/permalink/6848484928599334/
 
-![alt text](https://github.com/jeroentaverne/msxpico/blob/main/msxpico_9.jpg)
+![alt text](https://github.com/jeroentaverne/msxpico/blob/main/media/msxpico_9.jpg)
 
 The MSX Pico cartridge features:
 
