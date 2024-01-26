@@ -1,0 +1,48 @@
+v1.09:
+- Add support for Konami Ultimate ROM (Nemesis doesn't start for some reason)
+- Increase activity timeout to 50msec, still fast response to reset button
+
+v1.10:
+- Add option for Nextor without RAM in main slot to get some SCC demos working
+- Update Nextor to 2.1.2
+
+v1.11:
+- Simplify SPI transfers to SD card
+
+v1.12:
+- Add more built in Konami games
+- Add option for SCC+ only in main slot
+- Switch to screen 1 before starting ROM, Kings Valley 1 needs this
+
+v1.13:
+- Page up/down using shift+up/down
+- Search by pressing first letter of name
+- Show help page by pressing HOME key.
+
+v1.14:
+- Add MSX1 detection
+- Add menu screen support for MSX1
+- Do not show MSX2 internal ROMs on MSX1
+
+v1.15:
+- Special build with only MSX1 games
+
+v1.16:
+- Show green LED when update is succesfull
+- Modify reset detection to avoid crashes on Turbo-R and pause button press
+- Fix problems with SD card on Turbo-R
+- Add slot expander detection
+- Reduce wait time on IO access by using filter and disable DAC
+- Copy internal ROM to RAM if it is available and fits for better performance
+- Small menu adjustments
+
+v1.20:
+- More internal games
+- Make it possible to load special .cat files (catalog of ROMs to replace internal ROMs)
+- Use PSG2 and SCC at the same time (Usas Enhanced)
+- Make it possible to load ROM files till 15MB
+- Show progress bar when loading ROMs
+- Improve letter search, pressing multiple times jumps no next item
+- No reboot when selecting SCC Only
+- Fix problem files not loading with very long filenames
+- Partial 7MHz support, not working at all times
