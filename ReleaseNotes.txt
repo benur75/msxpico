@@ -46,3 +46,13 @@ v1.20:
 - No reboot when selecting SCC Only
 - Fix problem files not loading with very long filenames
 - Partial 7MHz support, not working at all times
+
+v1.21/v1.22:
+- Fix SCC sound distortion
+- Enable support for mono hardware withoud stereo DAC
+- Fix menu problem on MSX1
+- Do not show mappertype on MSX1 to give the name more room
+- Show inverted manual options when starting a ROM
+- Add Turbo mode option when starting a ROM
+- Add mono mix option when starting a ROM
+- Add FM PAC ROM support (disabled)
