@@ -41,8 +41,8 @@ By pressing the right cursor key the SD card contents is shown. In this screen t
 -	.MP3 and .WAV files (48 kHz max)
 
 Help screen:
-Help page is shown by pressing the <H> key.
-Configuration screen is shown with <SHIFT>+<H> key.
+Help page is shown by pressing the H key
+Configuration screen is shown with SHIFT+H key
 
 Disk images:
 Please use Nextor with Sofarun. Make sure the SD card if formatted at FAT16. This can be forced by using Nextor format utility. Type call fdisk in BASIC to create partitions and format the SD card.
@@ -65,8 +65,8 @@ Create bootable SD card:
 - Insert new SD card
 - In BASIC type: call fdisk
 - Select the SD card
-- Delete all partitions by pressing <D>
-- Create at least one new partition by pressing <A>
-- Write the parititions by pressing <W>
+- Delete all partitions by pressing D key
+- Create at least one new partition by pressing A key
+- Write the parititions by pressing W key
 - Power off the MSX
 - Copy the contents of msxpico_sd.zip to the first partition using a PC or MAC
