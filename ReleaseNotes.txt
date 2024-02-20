@@ -56,3 +56,25 @@ v1.21/v1.22:
 - Add Turbo mode option when starting a ROM
 - Add mono mix option when starting a ROM
 - Add FM PAC ROM support (disabled)
+
+v1.23:
+- Add basic joystick control
+- Wait for SLTSL on read cycles for better compatibility
+- Use MIDI TX enable/disable to get better performance
+
+v1.24:
+- Add MIDI enable/disable
+- Add PSG2 enable/disable
+- Add configuration screen with settings store in FLASH
+- Show configuration screen when starting a ROM
+- Skip impossible frequency change on MSX1
+- Disable size sorting when search for letter
+- Add / replace some games
+- GUI / menu code cleanup
+
+v1.25:
+- Modify configuration screen so it can be controlled by joystick as well
+- Add option to disable the LED
+- Add option to disable PSG1 to avoid internal and emulated PSGs playing the same sound
+- Add option for experimental speed improvement (use at own risk)
+- Add option to show files on SD card at startup
