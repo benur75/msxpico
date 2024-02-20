@@ -8,9 +8,9 @@ For small demo videos check: https://www.facebook.com/groups/1113206428793908/pe
 
 The MSX Pico cartridge features:
 
-- A 3D printed cartridge case in black. Other colors can be requested.
+- A 3D printed cartridge case in available colors.
 - Latest version has a PCB with gold plated contacts.
-- Built in menu (80 columns) with direct file access and very fast response.
+- Built in menu with direct file access and very fast response.
 - Built in ready to use well known ROMs.
 - Built in Nextor to use micro SD card in MSXDOS2. When Nextor is used, 224 kByte extra RAM, SCC+ and Basic Kun plus is available as well
 - Stereo high quality audio DAC with 3.5mm output.
@@ -20,12 +20,29 @@ The MSX Pico cartridge features:
 - RGB status LED, also used for showing audio level.
 - MIDI output through mini USB which uses same cable as the Midi Pac. A cable can be ordered as add-on.
 - USB-C connection for firmware updates.
-- ROM files with a maximum of 4MB can directly be loaded from micro SD card by the built in menu without using Sofarun or Romload.
+- ROM files with a maximum of 15MB can directly be loaded from micro SD card by the built in menu without using Sofarun or Romload.
 - Automatic mapper type detection with manual adjustment. Supported mapper types: ASCII8, ASCII16, Konami with and without SCC.
 - 50/60Hz video output selection
+- Joystick support
 - Compatible with MSX2, MSX2+, MSX Turbo R, One Chip MSX, SX1-(mini)
-- Not compatible with 7MHz modification
-- Not compatible with pause key
+- Often compatible with MSX1, not guaranteed
+- Often compatible with 7MHz modification, not guaranteed
 
 For a questions, ideas and orders please contact me: j.taverne@gmail.com
+
+Manual
+
+Creating SD card:
+
+- Insert MSX Pico
+- Power on the MSX
+- Select Nextor
+- Insert new SD card
+- In BASIC type: call fdisk
+- Select the SD card
+- Delete all partitions by pressing <D>
+- Create at least one new partition by pressing <A>
+- Write the parititions by pressing <W>
+- Power off the MSX
+- Copy the contents of msxpico_sd.zip to the first partition using a PC or MAC
 
