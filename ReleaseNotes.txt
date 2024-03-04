@@ -78,3 +78,15 @@ v1.25:
 - Add option to disable PSG1 to avoid internal and emulated PSGs playing the same sound
 - Add option for experimental speed improvement (use at own risk)
 - Add option to show files on SD card at startup
+
+v1.26:
+- Sound emulation now uses FIFO to communicate between the two cores
+- Add MSX Music emulation and the required detection by a ROM
+- Add FMPAC BASIC BIOS (call fmpac can be executed)
+- Add switching between 3 different SCC+, MSX Music setups
+- Switch between SCC+ and MSM Music by pressing <INS> key
+- Add extra settings for MSX Music
+- Add reboot with extra RAM to boot from real floppy
+- Made LED music level less bright
+- Fix FLASH programming sometimes hanging
+- Enabled experimental single disk emulation
