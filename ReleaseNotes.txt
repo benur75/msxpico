@@ -80,6 +80,8 @@ v1.25:
 - Add option to show files on SD card at startup
 
 v1.26:
+- More than double entries in one directory possible
+- Show warning when there are too many entries in directory
 - Sound emulation now uses FIFO to communicate between the two cores
 - Add MSX Music emulation and the required detection by a ROM
 - Add FMPAC BASIC BIOS (call fmpac can be executed)
@@ -87,6 +89,10 @@ v1.26:
 - Switch between SCC+ and MSM Music by pressing <INS> key
 - Add extra settings for MSX Music
 - Add reboot with extra RAM to boot from real floppy
-- Made LED music level less bright
-- Fix FLASH programming sometimes hanging
+- Less brightness of sound level LED
+- Fix FLASH programming sometimes crashing
+- Add support for Sony XV-T550 videotitler, games can be played using joystick
+- Add setting to prevent exit by only pressing <SHIFT>
+- Add setting for to show files at startup
+- Add support for starting in a certain dir (create startdir.txt, do not use (back)slash)
 - Enabled experimental single disk emulation
