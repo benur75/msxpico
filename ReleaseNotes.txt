@@ -96,3 +96,13 @@ v1.26:
 - Add setting for to show files at startup
 - Add support for starting in a certain dir (create startdir.txt, do not use (back)slash)
 - Enabled experimental single disk emulation
+
+v1.27:
+
+- Enable MSX Music & SCC by default in settings
+- Disable <TAB> key when music is playing as its functionality is broken for now
+- Manual volume control for PSG,SCC,MSX-MUSIC,MP3 in config screen
+- Increase free RAM by optimizing MSX-MUSIC emulation
+- Add automatic FMPAC save game file load/save (only possible when loading games from SD card in MSX Pico files screen)
+- Fix wrong LED color at powerup on some MSX Pico cartridges (should be temporary RED)
+- Play SCC also on left channel if PSG is silent
