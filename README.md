@@ -2,9 +2,9 @@
 
 I have created a multi purpose cartridge for MSX computers. It's based on a Raspberry Pi Pico clone with 16MB of FLASH memory and 256 kBytes of RAM.
 
-For small demo videos check: https://www.facebook.com/groups/1113206428793908/permalink/6848484928599334/
+**For demos running on real hardware check: https://www.youtube.com/@MSXPico**
 
-The MSX Pico cartridge features:
+# MSX Pico cartridge features
 
 - 3D printed cartridge case in available colors
 - PCB with gold plated contacts.
@@ -28,31 +28,38 @@ The MSX Pico cartridge features:
 - Works on most MSX1 computers
 - Sony XV-T550 support
 
-For a questions, ideas and orders please contact: msxpico@gmail.com
+**Features can be enabled/disabled in the configuration screen**
 
-MANUAL
+**For a questions, ideas and orders please contact: msxpico@gmail.com**
+
+# Operation
 
 Never insert or remove the cartridge when the MSX is powered on!
  
-Built in menu:
-After inserting the cartridge and power up a selection menu is shown on screen. It’s a selection of Nextor, fixed Konami games, ASCII games and a SCC demo. All these items can be started without a SD card inserted. Games with SCC will also produce SCC sound. For the Nextor manual, check the Nextor website.
+## Built in menu
+After inserting the cartridge and power up a selection menu is shown on screen. All these items can be started without a SD card inserted. For help with Nextor please check the Nextor website.
 
 By pressing the right cursor key the SD card contents is shown. In this screen the following files can be started:
 
 -	.ROM files (support for standard ROMs, ASCII 8, ASCII 16, Konami without SCC and Konami with SCC sound)
+-	.DSK single disk files up to 720kB (for multi disk support please use Nextor together with Sofarun)
 -	.MP3 and .WAV files (48 kHz max)
 
-Help screen:
+## Help screen
 Help page is shown by pressing the H key
-Configuration screen is shown with SHIFT+H key
 
-Disk images:
-Please use Nextor with Sofarun. Make sure the SD card if formatted at FAT16. This can be forced by using Nextor format utility. Type call fdisk in BASIC to create partitions and format the SD card.
+## Configuration screen
+Configuration screen is shown with SHIFT+H key.
 
-SCC+ implementation:
-The SCC+ emulation currently involves the sound chip only. Konami ROMs will work without any modifications. VGMPLAY and SOFARUN can detect the SCC+ without any issues. To be able to detect the SCC+ properly by for instance SD Snatcher, the modified version of game need to be used. This might also apply to other games or demos.
+## Sorting
+Sorting switch between alphabetic and size with SELECT key.
 
-RGB LED:
+## Extra RAM
+With some options like Nextor extra RAM memory mapper is available. The size depends if SCC+ and/or FM-PAC are enabled in the configuration screen.
+
+## RGB LED
+The RGB LED can be enabled or disabled in the configuration screen.
+
 -	Purple when connected to PC by USB-C for software update
 -	Green steady when software update is finished
 -	Green blink when SD card is accessed when Nextor is used
@@ -60,7 +67,30 @@ RGB LED:
 -	Blue blink when MIDI data is sent
 -	White fading when audio is played
 
-Create bootable SD card:
+## MIDI output
+The MIDI output is optional. When the MSX Pico supports MIDI out, it needs to be enabled in the configuration screen. Midry v1.06 running on Nextor can be used to play MIDI files.
+
+## Dual PSG emulation
+Dual PSG is supported in some games and in vgmplay.
+
+## FM-PAC emulation
+The FM-PAC emulation needs to be enabled in the configuration screen. When the FM-PAC is enabled, it's also possible to use the load/save feature of the FM-PAC in games started from SD card.
+
+## SCC+ emulation
+The SCC+ emulation currently involves the sound chip only. Konami ROMs will work without any modifications. VGMPLAY and SOFARUN can detect the SCC+ without any issues. To be able to detect the SCC+ properly by for instance SD Snatcher, the modified version of game need to be used. This might also apply to other games or demos.
+
+## Software update
+- Download latest .uf2 update file from github.com/jeroentaverne/msxpico
+- Turn off MSX
+- Remove MSX Pico from MSX, or keep it inserted
+- Connect MSX Pico to a PC/Apple/Linux computer using a USB-C cable
+- RGB LED should turn PURPLE
+- An extra USB drive should show up in explorer/finder
+- Copy the .uf2 update file to the USB drive
+- Updating will start
+- After updating the RGB LED will turn GREEN
+
+## Create bootable SD card
 - Insert MSX Pico
 - Power on the MSX
 - Select Nextor
