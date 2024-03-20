@@ -3,6 +3,7 @@
 I have created a multi purpose cartridge for MSX computers. It's based on a Raspberry Pi Pico clone with 16MB of FLASH memory and 256 kBytes of RAM.
 
 **For demos running on real hardware check: https://www.youtube.com/@MSXPico**
+Discord server: https://discord.gg/akaRPnpQ
 
 # MSX Pico cartridge features
 
