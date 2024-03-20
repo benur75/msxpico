@@ -6,25 +6,27 @@ For small demo videos check: https://www.facebook.com/groups/1113206428793908/pe
 
 The MSX Pico cartridge features:
 
-- A 3D printed cartridge case in available colors.
-- Latest version has a PCB with gold plated contacts.
-- Built in menu with direct file access and very fast response.
-- Built in ready to use well known ROMs.
-- Built in Nextor to use micro SD card in MSXDOS2. When Nextor is used, 224 kByte extra RAM, SCC+ and Basic Kun plus is available as well
-- Stereo high quality audio DAC with 3.5mm output.
-- SCC+ emulation (PSG left, SCC+ right).
-- Dual PSG emulation (PSG1 left, PSG2 right).
-- MP3 playback in stereo (48kHz maximum sampling rate).
-- RGB status LED, also used for showing audio level.
-- Optional MIDI output through mini USB which uses same cable as the Midi PAC. A cable can be ordered as add-on.
-- USB-C connection for firmware updates.
-- ROM files with a maximum of 15MB can directly be loaded from micro SD card by the built in menu without using Sofarun or Romload.
-- Automatic mapper type detection with manual adjustment. Supported mapper types: ASCII8, ASCII16, Konami with and without SCC.
-- 50/60Hz video output selection
-- Joystick support
-- Compatible with MSX2, MSX2+, MSX Turbo R, One Chip MSX, SX1-(mini)
-- Often compatible with MSX1, not guaranteed
-- Often compatible with 7MHz modification, not guaranteed
+- 3D printed cartridge case in available colors
+- PCB with gold plated contacts.
+- Built in menu
+- Stereo 3.5mm audio output
+- FMPAC sound en SRAM emulation
+- Konami SCC+ sound emulation
+- Dual PSG sound emulation
+- MP3 player
+- Volume en mono/stereo setting
+- Micro SD card slot
+- USB-C connector for software update
+- RGB status LED
+- Optional MIDI uitgang
+- Nextor and turbo BASIC built in
+- At most 224kB extra RAM avilable for Nextor
+- ROM files till 15MB supported
+- DSK files till 720kB supported (multi disk support is in development)
+- ASCII, Konami, NEO mapper support
+- For MSX2, MSX2+, TurboR computers
+- Works on most MSX1 computers
+- Sony XV-T550 support
 
 For a questions, ideas and orders please contact: msxpico@gmail.com
 
