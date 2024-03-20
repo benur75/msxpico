@@ -98,7 +98,6 @@ v1.26:
 - Enabled experimental single disk emulation
 
 v1.27:
-
 - Enable MSX Music & SCC by default in settings
 - Disable <TAB> key when music is playing as its functionality is broken for now
 - Manual volume control for PSG,SCC,MSX-MUSIC,MP3 in config screen
@@ -106,3 +105,9 @@ v1.27:
 - Add automatic FMPAC save game file load/save (only possible when loading games from SD card in MSX Pico files screen)
 - Fix wrong LED color at powerup on some MSX Pico cartridges (should be temporary RED)
 - Play SCC also on left channel if PSG is silent
+
+v1.28:
+- Rename "MSX Music" to "FM-PAC" in menu
+- Make FM-PAC sound working in Konami5 mapper (used for Super Mario World)
+- Load/save mapper type when manually changed
+- Hide files which can not be started
