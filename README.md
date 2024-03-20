@@ -3,7 +3,8 @@
 I have created a multi purpose cartridge for MSX computers. It's based on a Raspberry Pi Pico clone with 16MB of FLASH memory and 256 kBytes of RAM.
 
 **For demos running on real hardware check: https://www.youtube.com/@MSXPico**
-Discord server: https://discord.gg/akaRPnpQ
+
+**Discord server: https://discord.gg/akaRPnpQ**
 
 # MSX Pico cartridge features
 
@@ -79,6 +80,9 @@ The FM-PAC emulation needs to be enabled in the configuration screen. When the F
 
 ## SCC+ emulation
 The SCC+ emulation currently involves the sound chip only. Konami ROMs will work without any modifications. VGMPLAY and SOFARUN can detect the SCC+ without any issues. To be able to detect the SCC+ properly by for instance SD Snatcher, the modified version of game need to be used. This might also apply to other games or demos.
+
+## MP3 playback
+MP3 files in mono or stereo with a maximum of 48kHz can be played back.
 
 ## Software update
 - Download latest .uf2 update file from github.com/jeroentaverne/msxpico
