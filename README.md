@@ -12,7 +12,7 @@ I have created a multi purpose cartridge for MSX computers. It's based on a Rasp
 - PCB with gold plated contacts.
 - Built in menu
 - Stereo 3.5mm audio output
-- FMPAC sound en SRAM emulation
+- FM-PAC sound en SRAM emulation
 - Konami SCC+ sound emulation
 - Dual PSG sound emulation
 - MP3 player
@@ -20,14 +20,13 @@ I have created a multi purpose cartridge for MSX computers. It's based on a Rasp
 - Micro SD card slot
 - USB-C connector for software update
 - RGB status LED
-- Optional MIDI uitgang
-- Nextor and turbo BASIC built in
-- At most 224kB extra RAM avilable for Nextor
+- Optional MIDI output
+- Nextor built in with at most 224kB extra RAM
 - ROM files till 15MB supported
 - DSK files till 720kB supported (multi disk support is in development)
 - ASCII, Konami, NEO mapper support
-- For MSX2, MSX2+, TurboR computers
-- Works on most MSX1 computers
+- For MSX2, MSX2+, Turbo-R computers
+- Works on most MSX1 computers (VG8020/00 has an issue)
 - Sony XV-T550 support
 
 **Features can be enabled/disabled in the configuration screen**
