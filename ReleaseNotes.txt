@@ -110,3 +110,12 @@ v1.28:
 - Rename "MSX Music" to "FM-PAC" in menu
 - Make FM-PAC sound working in Konami5 mapper (used for Super Mario World)
 - Load/save mapper type when manually changed
+
+v1.29:
+- Fix writing FM_PAC SRAM data with wrong filename
+- Only show supported files
+- Fix TAB key when music is playing
+- Add <SHIFT>+<E> key option for erasing ROM catalog
+- Better size unity view
+- Some cosmetic menu changes and LED settings changed
+- Add Blade Lords
